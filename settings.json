@@ -3,6 +3,14 @@
         120
     ],
     "editor.renderWhitespace": "all",
+    "[python]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4
+    },
+    "[cpp]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2
+    },
     "editor.insertSpaces": true,
     "editor.tabSize": 2,
     "workbench.iconTheme": "Monokai Pro (Filter Octagon) Icons",
