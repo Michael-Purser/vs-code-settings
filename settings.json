@@ -3,7 +3,7 @@
 
     "cmake.configureOnOpen":                true,
 
-    "editor.fontSize":                      12,
+    "editor.fontSize":                      10,
     "editor.insertSpaces":                  true,
     "editor.rulers":                        [120],
     "editor.renderWhitespace":              "all",
@@ -18,10 +18,8 @@
     "git.detectSubmodules":                 false,
     "git.detectSubmodulesLimit":            9999,
 
-    "http.proxyAuthorization":              null,
-
-    "window.zoomLevel":                     0,
-    "window.restoreWindows":                "none",
+    "http.proxyAuthorization": null,
+    "window.restoreWindows":                "folders",
 
     "workbench.iconTheme":                  "Monokai Pro (Filter Octagon) Icons",
     "workbench.startupEditor":              "newUntitledFile",
@@ -35,6 +33,12 @@
     "[cpp]": {
         "editor.insertSpaces":              true,
         "editor.tabSize": 2,
-        "editor.defaultFormatter":          "xaver.clang-format"
+        "editor.defaultFormatter":          "llvm-vs-code-extensions.vscode-clangd"
     },
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
 }
