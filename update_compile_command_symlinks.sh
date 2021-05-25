@@ -143,11 +143,6 @@ removeSymlinkToCompileCommandsAndCacheFolder()
 # Main script
 # -----------
 
-if ! [ "$(id -u)" = 0 ]; then
-  error "Please run this script with superuser permissions"
-  exit 1
-fi
-
 if [[ ! -d "${ENWAY_BUILD_SPACE}" ]];
 then
   error "No build space found at $ENWAY_BUILD_SPACE"
